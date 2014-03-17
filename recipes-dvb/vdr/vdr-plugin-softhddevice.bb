@@ -6,9 +6,11 @@ DEPENDS = "vdr ffmpeg alsa-lib libvdpau virtual/libx11 xcb-util-wm"
 LICENSE = "AGPL-3.0"
 LIC_FILES_CHKSUM = "file://AGPL-3.0.txt;md5=c959e6f173ca1387f63fbaec5dc12f99"
 
-SRC_URI = "git://projects.vdr-developer.org/vdr-plugin-softhddevice.git;branch=master"
+SRC_URI = "git://projects.vdr-developer.org/vdr-plugin-softhddevice.git;branch=master \ 
+           file://0001-enable-VDPAU-bitmap-surface.patch \
+           "
 
-SRCREV = "a45b9a3abe63ac2e3d196c0283692d1f92afe232"
+SRCREV = "42bbb763fd93ee3936ea50e003c0892c791b1214"
 PV = "0.6.1+git${SRCPV}"
 PR = "r0"
 
