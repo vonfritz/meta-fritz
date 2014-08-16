@@ -7,11 +7,11 @@ LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=892f569a555ba9c07a568a7c0c4fa63a"
 
 SRC_URI = "git://projects.vdr-developer.org/vdr.git;branch=stable/2.0 \
-           file://0001-add-Make.config.patch"
+           file://0001-add-Make.config.patch \
+          "
 
-SRCREV = "d2ef5bcb964dfafb06e6055c1fa601030bdda52b"
-PV = "2.0.5"
-PR = "r0"
+SRCREV = "18a0976aab1fc703e346712145f3ae45474cd95d"
+PV = "2.0.6"
 
 CFLAGS_append = " -fPIC"
 CXXFLAGS_append = " -fPIC"
