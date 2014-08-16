@@ -1,0 +1,43 @@
+From 3a6e905d60ceca38715292496e1683a561eaed0a Mon Sep 17 00:00:00 2001
+From: fritz <noreply@example.com>
+Date: Sun, 26 Jan 2014 21:44:10 +0100
+Subject: [PATCH] add Make.config
+
+---
+ Make.config | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+ create mode 100644 Make.config
+
+diff --git a/Make.config b/Make.config
+new file mode 100644
+index 0000000..d5b62d6
+--- /dev/null
++++ b/Make.config
+@@ -0,0 +1,24 @@
++### The directory environment:
++
++# Default directories (adjust as necessary or desired):
++
++PREFIX    = /usr
++BINDIR    = $(PREFIX)/bin
++INCDIR    = $(PREFIX)/include
++LIBDIR    = $(PREFIX)/lib/vdr/plugins
++LOCDIR    = $(PREFIX)/share/locale
++MANDIR    = $(PREFIX)/share/man
++PCDIR     = $(PREFIX)/lib/pkgconfig
++RESDIR    = $(PREFIX)/share/vdr
++#DVBDIR    = /usr/src/v4l-dvb/linux/include/uapi
++
++VIDEODIR  = /var/lib/vdr/video
++CONFDIR   = /etc/vdr
++#CACHEDIR  = /var/cache/vdr
++
++### The remote control:
++
++LIRC_DEVICE = /var/run/lirc/lircd
++
++### Define if you want vdr to not run as root:
++#VDR_USER = vdr
+-- 
+1.8.5.2
+
