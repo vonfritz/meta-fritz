@@ -16,7 +16,10 @@ IMAGE_INSTALL += " \
     xserver-common \
     ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-common \
     ${XSERVER} \
-"
+    mplayer2 \
+    vdr \
+    vdr-plugin-softhddevice \
+    "
 
 export IMAGE_BASENAME = "sunxi-vonfritz-image"
 
