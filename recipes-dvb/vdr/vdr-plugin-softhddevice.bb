@@ -7,10 +7,9 @@ LICENSE = "AGPL-3.0"
 LIC_FILES_CHKSUM = "file://AGPL-3.0.txt;md5=c959e6f173ca1387f63fbaec5dc12f99"
 
 SRC_URI = "git://projects.vdr-developer.org/vdr-plugin-softhddevice.git;branch=master \ 
-           file://0001-enable-VDPAU-bitmap-surface.patch \
            "
 
-SRCREV = "42bbb763fd93ee3936ea50e003c0892c791b1214"
+SRCREV = "8b7402a397bf460e25a75add8059aa2eb83709ee"
 PV = "0.6.1+git${SRCPV}"
 PR = "r0"
 
