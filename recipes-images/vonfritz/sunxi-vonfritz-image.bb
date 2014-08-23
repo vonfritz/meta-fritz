@@ -14,6 +14,7 @@ IMAGE_INSTALL += " \
     xserver-nodm-init-systemd \
     formfactor \
     xserver-common \
+    fontconfig-utils \
     ttf-dejavu-sans ttf-dejavu-sans-mono ttf-dejavu-common \
     ${XSERVER} \
     mplayer2 \
