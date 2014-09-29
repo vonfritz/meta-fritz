@@ -9,12 +9,12 @@ LIC_FILES_CHKSUM = "file://AGPL-3.0.txt;md5=c959e6f173ca1387f63fbaec5dc12f99"
 SRC_URI = "git://projects.vdr-developer.org/vdr-plugin-softhddevice.git;branch=master \ 
            "
 
-SRCREV = "8b7402a397bf460e25a75add8059aa2eb83709ee"
+SRCREV = "a3c0052c4b87b44679d8264c89d085fcda721a2e"
 PV = "0.6.1+git${SRCPV}"
 PR = "r0"
 
-CFLAGS_append = " -fPIC"
-CXXFLAGS_append = " -fPIC"
+CFLAGS_append = " -fPIC -fsigned-char"
+CXXFLAGS_append = " -fPIC -fsigned-char"
 
 S = "${WORKDIR}/git"
 
